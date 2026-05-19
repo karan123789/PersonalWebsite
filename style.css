@@ -204,6 +204,8 @@ section { padding:96px 64px; }
 .proj-card-large .proj-img-area img { width:100%; height:auto; object-fit:unset; }
 .proj-body { padding:20px 18px; flex:1; display:flex; flex-direction:column; gap:10px; }
 .proj-title { font-size:0.97rem; font-weight:700; color:var(--text); }
+.proj-link { display:inline-block; margin-bottom:6px; font-size:0.82rem; font-weight:600; color:var(--blue); text-decoration:none; transition:color .2s; }
+.proj-link:hover { color:var(--accent3); }
 .proj-desc { color:var(--sub); font-size:0.86rem; line-height:1.6; flex:1; }
 .proj-tags { display:flex; flex-wrap:wrap; gap:6px; }
 .proj-tag { font-size:0.7rem; padding:3px 10px; border-radius:12px; background:#fff; color:var(--sub); border:1px solid var(--border); }
